@@ -1,3 +1,7 @@
+This is the output of a talk I gave on *Webify your resume* for the OWN (Ozmo Women's Network) 
+I showed several tips and tricks and how to use AI to both augment and generate derivatives from your resume. 
+
+---
 # David Bates
 
 549 Franklin Pike SE, Floyd, VA 24091 | Phone: 540.750.6692 | jobs@dlbates.com
