@@ -12,16 +12,62 @@
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<style>
+			.reveal blockquote{
+				font-size: .6rem;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Intro<img src="assets/Slide1.png" /></section>
-				<section>Slide 2<img src="assets/Slide2.png" /></section>
-				<section>Slide 3<img src="assets/Slide3.png" /></section>
-				<section>Slide 4<img src="assets/Slide4.png" /></section>
-				<section>Slide 5<img src="assets/Slide5.png" /></section>
-				<section>Slide 6<img src="assets/Slide6.png" /></section>
+				<section>
+					<img src="assets/Slide1.png" />
+					<blockquote>Thanks for having me today. If you haven’t met me yet, I’m David Bates and I’ve super happy to talk about resumes, websites, AI, and you! 
+						I’ve been in the industry for almost 30 years and in that time have seen hundreds if not thousands of resumes. While it’s odd to give this talk here (We’re all employed) we’re each on our own paths and I want you all to succeed. I chose this talk because the resume and your digital identity are tools everyone should be utilizing. Today I’m going to give you some tips and tricks that will hopefully help you build a kick-ass resume and an kick-start an online presence that you can iterate on as you gain more experience. This talk is geared towards those starting out but I’m sure anyone will take away a tip. Let’s dive in. 
+					</blockquote>
+					
+				</section>
+				<section>
+					<img src="assets/Slide2.png" />
+					<blockquote>
+						You’re resume is much like a dating profile. I must admit I haven’t dated in 24 years but I do have tiktok so… I’m basically still hip…
+						You are basically marketing yourself in your resume, the people that read it will have many to go through so you want to make sure you leave an impression so they can’t help but swipe right. 
+						First we’re going to talk about the resume itself and how to improve it
+						Then we’ll get into networking both in-person and online 
+						Finally I’ll show you how to take your resume and create an online presence with it that you own. 
+					</blockquote>
+				</section>
+				<section>
+					<img src="assets/Slide3.png" />
+					<blockquote>
+						During this presentation I’ll talk a lot about how to best use AI to customize and optimize your resume. I’ll introduce you to some concepts for prompt engineering that will help the output from AI be somewhat safe but using any generative AI comes with risks and you should always evaluate the output. 
+						Some risk include: 
+						Hallucinations (The bot will make up stuff) 
+						Relying on job input and not verifying you have the skills it’s saying you do
+						Taking layouts from others 
+						Bad or broken english 
+						With that being said if you take the output and put your own spin on it and utilize frameworks to aid then they can be a tremendous help. 
+					</blockquote>
+				</section>
+				<section>
+					<img src="assets/Slide4.png" />
+					<blockquote>
+						When seeking a new role it’s a numbers game, the more interviews you get the more job offers you’ll receive. It’s that simple. So let’s get to those tips. 
+					</blockquote>
+				</section>
+				<section>
+					<img src="assets/Slide5.png" />
+					<blockquote>
+						Each job is different and comes with different job descriptions. You should target your resume to fit each one. You can use your base resume to do this with AI! 
+					</blockquote>
+				</section>
+				<section>
+					<img src="assets/Slide6.png" />
+					<blockquote>
+						For this demonstration I’m going to take my own resume and feed it into an AI to help me target a specific job. The highlighted sections are my base or generic information and this base helps the AI know both my style and the range of capabilities I’m willing to share. Let’s take a look at the prompt. But first let’s talk about prompt engineering. 
+					</blockquote>
+				</section>
 				<section>Slide 7<img src="assets/Slide7.png" /></section>
 				<section>Slide 8<img src="assets/Slide8.png" /></section>
 				<section>Slide 9<img src="assets/Slide9.png" /></section>
@@ -48,7 +94,8 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
-
+				autoSlide: 5000,
+  				loop: true,
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
